@@ -1,0 +1,65 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 2022年9月26日, 上午12:38:35
+    Author     : Rui Bao
+*/
+body {
+    background-color: hsl(0,55%,91%);
+}
+ul {
+  font-style: oblique;
+  font-size: 30px;
+  list-style-type: none;
+  margin: 0;
+  padding: 2rem 0 4rem;
+  overflow: hidden;
+  background-color: none;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+    background-color: whitesmoke;
+}
+
+li a:hover:not(.active) {
+    background-color: gray;
+    color: whitesmoke;
+}
+
+.active {
+    font-style: oblique;
+    font-size: 36px;
+    color: #ff99cc;
+}
+
+.footer{
+  overflow: hidden;
+  background-color: #cccccc;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer a {
+  float: right;
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 2px 30px;
+  text-decoration: none;
+  font-size: 1rem;
+}

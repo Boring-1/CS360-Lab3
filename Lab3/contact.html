@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>CS360_Lab3_Contact</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <link rel="stylesheet" href="./style.css">
+        <style>
+            .active3 {
+                color: #afafe8;
+            }
+            h1 {
+              font-style: oblique;
+              font-size: 1.75rem;
+              text-align: left;
+              text-transform: initial;
+              color: black;
+            }
+            
+            h2 {
+              font-style: oblique;
+              font-size: 1.75rem;
+              text-align: right;
+              text-transform: initial;
+              color: black;
+            }
+            input[type=text], select {
+                font-size: 1.25rem;
+                    width: 80%;
+                    padding: 10px 10px;
+                    margin: 8px 0;
+                    display: inline-block;
+                    border: 1px solid #ccc;
+                    border-radius: 2px;
+                    box-sizing: border-box;
+            }
+
+            input[type=submit] {
+                font-size: 1.25rem;
+                    width: 80%;
+                    background-color: #4CAF50;
+                    color: white;
+                    padding: 14px 15px;
+                    margin: 8px 0;
+                    border: none;
+                    border-radius: 2px;
+                    cursor: pointer;
+            }
+
+            input[type=submit]:hover {
+                font-size: 1.25rem;
+                    background-color: #45a049;
+            }
+
+            div {
+                    border-radius: 5px;
+                    padding: 20px;
+            }
+            
+            .content4{
+                position: absolute;
+                left: 10%;
+                top:20%;
+            }
+            .mapouter{
+                position: absolute;
+                right: 15%;
+                top:13%;
+                text-align:center;
+                height:500px;
+                width:600px;
+            }
+
+                   
+            .gmap_canvas {
+                overflow:hidden;
+                background:none!important;
+                height:500px;
+                width:600px;
+            }
+                     
+        </style>
+        
+    </head>
+    <body>
+         <ul>
+            
+            <li><a href="signup.html"><i class="uil uil-arrow-up"></i>Sign up</a></li>
+            <li><a href="signin.html"><i class="uil uil-signin"></i>Sign in</a></li>
+            <li><a class="active3" href="contact.html"><i class="uil uil-comment-heart"></i>Contact</a></li>
+            <li><a href="portfolio.html"><i class="uil uil-user"></i>Portfolio</a></li>
+            <li><a href="about.html"><i class="uil uil-expand-arrows"></i>About</a></li>
+            <li><a href="index.html"><i class="uil uil-estate"></i>Home</a></li>
+                   <li style="float:left"><a class="active">Rui Bao</a></li>
+        </ul>
+        <div class="content4">
+            <br>
+            <h1>Enter your name and phone number,<br>
+                and I will contact you as soon as possible. </h1>
+            <form action="/action_page.php">
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                    <label for="phone">Phone number:</label><br>
+                    <input type="text" id="phone" name="phone"><br><br>
+                    <input type="submit" value="Submit">
+            </form> 
+         </div>    
+         <div class="mapouter">
+             <h2>My location</h2>
+             <div class="gmap_canvas">
+                    <iframe width="600" 
+                            height="500" 
+                            id="gmap_canvas" 
+                            src="https://maps.google.com/maps?q=university%20of%20idaho&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" 
+                            scrolling="no" 
+                            marginheight="0" 
+                            marginwidth="0">                    
+                    </iframe>
+                    <a href="https://fmovies-online.net"></a><br>
+                    <a href="https://www.embedgooglemap.net">google map responsive</a>
+                     
+             </div>                            
+         </div>
+          <div class="footer">
+            <a href="#Cookie Policy">Cookie Policy</a>
+            <a href="#Privacy Policy">Privacy Policy</a>
+            <a href="#Terms and Conditions">Terms and Conditions</a>
+        </div>
+    </body>
+</html>
